@@ -44,8 +44,6 @@ padding: 5rem;
 .btn-enviar:hover{
     color: red;
 }
-
-
 /* Pie de pagina */
 footer {
     display: flex;
@@ -66,11 +64,9 @@ footer {
 
 .correo-icons {
     display: flex;
-    list-style: none;
-    justify-content: center;
     justify-content: space-around;
 }
 
-
-
-
+.icons{
+    padding:5px;
+}
