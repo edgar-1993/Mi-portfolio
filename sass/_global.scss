@@ -1,0 +1,55 @@
+@mixin font-family-h1 {
+    font-family: 'Montserrat', sans-serif; ;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Logo {
+    width: 70px;
+}
+
+body {
+    background-color: #000000;
+    background-image: linear-gradient(0deg, #000000 0%, #fdfdfd 100%);
+    animation: bg-pan-bottom 10s both;
+}
+
+.encabezado {
+    border-bottom: solid black;
+}
+
+.titulo{
+    @include font-family-h1()
+}
+
+/* Pie de pagina */
+footer {
+    display: flex;
+    justify-content: center;
+    border-top: solid white;
+
+}
+
+.titulo-pie {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: small;
+    padding: 1em;
+
+}
+
+
+.correo-icons {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1em;
+}
+
+.icons {
+    padding: 5px;
+}
+
+

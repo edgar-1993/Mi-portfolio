@@ -1,0 +1,14 @@
+@mixin font-family-titulo {
+    font-family: 'Montserrat', sans-serif; ;
+}
+
+.titulo-skills {
+    @include font-family-titulo();
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.container-skills{
+    padding-bottom: 1em;
+}

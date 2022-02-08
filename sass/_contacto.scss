@@ -1,0 +1,30 @@
+.contacto-titulo{
+    display: flex;
+    justify-content: center;
+    h1{
+        padding: 2em;
+    }
+    
+}
+.container-form{
+padding: 5rem;
+
+}
+.contacto-form{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0px;
+    border: 0;
+    background-color: #111;
+    padding: 20px 40px;
+    outline: none;
+    transition: 0.5s;
+    color: #ddd;
+    box-shadow: 0 0 10px 4px #1d1f20;}
+
+.btn-enviar{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
