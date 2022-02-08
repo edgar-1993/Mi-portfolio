@@ -178,6 +178,12 @@ h2 {
   padding-bottom: 14.5rem;
 }
 
+@media screen and (max-width: 858px) {
+  .logos-container img {
+    width: 100%;
+  }
+}
+
 .titulo-skills {
   font-family: 'Montserrat', sans-serif;
   display: -webkit-box;

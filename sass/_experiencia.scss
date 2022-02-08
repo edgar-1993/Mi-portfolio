@@ -22,3 +22,12 @@ h2{
     flex-wrap: wrap;
     padding-bottom: 14.5rem;
 }
+
+
+@media screen and (max-width: 858px) {
+    .logos-container img {
+            width: 100%;
+        
+    }
+
+}
